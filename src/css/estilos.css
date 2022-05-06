@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFAFA;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.menu{
+    background-color: white;
+    height: 54px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.menu-mobile{
+    display: none;
+    justify-content: space-around;
+}
+.menu-esquerdo{
+    height: 200px; /* VALOR REFERENTE A DIV MENU QUE ESTA TAXADA 54PX*/
+    width: 150px; 
+
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+.menu-central{
+    width: 500px; 
+    height: 54px;
+}
+
+/* FLEX CENTER SEPARADO */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-direita{
+    width: 200px;
+    height: 54px;
+}
+
+.pesquisa-div{
+    background-color: #FFFAFA;
+    width: 50%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+.icones-menu{
+    font-size: 20px;
+    z-index: 0;
+}
+.logo-imagem{
+    width: 100px;
+    height: 30px; 
+    margin-top: 5px; /* AJUSTE PARA ENQUADRAR NO MEIO DA DIV (POR CONTA DO TAMANHO DA IMAGEM */
+}
+
+/* INICIANDO O CONTAINER*/
+.container{
+    width: 935px;
+    height: 1200px;
+
+    margin-top: 88px;
+    display: flex;
+}
+.icone-absolute{
+    position: absolute;
+    margin-left: 550px;
+    z-index: 0;
+}
+.icone-sobreposto{
+    font-size: 26px;
+    color: white;
+}
+.stories-div{
+    background-color: white;
+    width: 614px;
+    height: 118px;
+    /*COLOCANDO A ROLAGEM VERTICAL*/
+    overflow-x: scroll;
+    scrollbar-width: none; /*PARA NAO APARECER A BARRA DE ROLAGEM*/
+
+    padding-left: 10px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    
+}
+.stories-div::-webkit-scrollbar {
+    display: none; 
+}
+
+.stories-imagens{
+    width: 54px;
+    height: 54px;
+
+    border-radius: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+
+}
+
+.people-storie{
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    background-color: white;
+    width: 614px;
+    height: auto;
+
+    margin-bottom: 60px;
+   
+}
+.interacao-comentarios{
+    padding: 10px;
+}
+.postuser-imagens{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.icon-post {
+    width: 614px;
+    height: 15px;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right:15px;
+    
+}
+.cabecalho-post{
+    width: 100%; /* definido pela div post */
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+}
+.imagem-postada{
+    width: 100%;
+    height: 613px;
+    object-fit: cover;
+}
+
+.icones-post  {
+    width: 619px;
+    height: 20px;
+
+    display: flex;
+    padding: 5px;
+}
+
+
+.comentarios-post{
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    
+    display: flex;
+    align-items: center;
+
+}
+.postuser-comentarios{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-left: 12px;
+    margin-right: 5px;
+}.flex-end{
+    justify-items: flex-end;
+}
+.user-comments{
+    width: 614px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.icon-comentario{
+    margin-right: 25px;
+}
+.comentar{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid lightgray;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input[type=text] {
+    width: 80%;
+    border: none;
+    font-size: 14px;
+}
+video{
+    width: 613px;
+    height: auto;
+    background-color: black;
+    
+}
+button{
+    color: #B2DFFC;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: #0095F6;
+    transition-delay: 0.3s;
+}
+.sidebar{
+    width: 293px;
+    height: 700px;
+
+    margin-left: 15px;
+    position: fixed;
+    left: 65%;
+}
+.sidebar-images{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.user-sidebar {
+    width: 100%; /*ACOMPANHANDO A DIMENSAO DO SIDEBAR 293*/
+    height: auto;
+
+}
+.user-dados{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sugestoes{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.perfis-recomendados{
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu-inferior-mobile{
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: 54px;
+
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;   
+}
+
+.menu-inferior-mobile div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.espacamento-menu-mobile{
+    display: none;
+}
+
+/********** ESTILOS DE FONTS */
+h4{
+    font-size: 12px;
+}
+.about{
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #BEBEBE;
+}
+.linha-vertical{
+    width: 1px;
+    height: 35px;
+    background-color: #DBDBDB;
+}
+.titulo{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+
+}
+.subtitulo{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #c8c8c8;
+}
+.sub-minimalista{
+    color: 	#BEBEBE;
+}
+
+.username{
+    font-size: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+.border-padrao{
+    border: 1px solid #DBDBDB;
+}
+.negrito{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.seguir{
+    color: #139EF2;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* EFEITOS E TRANSICOES */
+
+.espacador-perfil{
+    margin: 10px;
+}
+.espacador-menu{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.espacador-menor{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.espacador-baixo{
+    margin-bottom: 3px;
+}
+.mouse-effect:hover{
+    filter: brightness(1.90);
+    cursor: pointer;
+}
+
+.mouse-link:hover{
+    cursor: pointer;
+}
+
+/* INICIO DOS MEDIA QUERY */
+@media (max-width:935px){ /*DESKTOP SEM SIDEBAR*/
+    .sidebar{
+        display: none;
+    }
+    body{
+        justify-content: center;
+    }
+    .container{
+        justify-content: center;
+    }
+}
+
+@media (max-width:614px){
+    
+    .menu{
+        display: none;
+    }
+    .icone-absolute{
+        display: none;
+    }
+    .menu-inferior-mobile{
+        display: inline;
+    }
+    .menu-mobile{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .stories-div{
+        background-color: #FFFAFA;
+        border: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .container{
+        margin-top: 50px;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .espacamento-menu-mobile{
+        display: inline;
+        width: 100%;
+        height: 1000px;
+    }
+}

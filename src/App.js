@@ -8,9 +8,9 @@ export default function App(){
     return(
         <div>
             <NavMenu />
-            <SideBar />
             <div className='container'>
-                <Posts />
+                 <Posts />
+                 <SideBar />
             </div>
           
         </div>

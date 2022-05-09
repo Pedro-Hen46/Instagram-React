@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 body{
     background-color: #FFFAFA;
@@ -28,7 +29,7 @@ body{
     justify-content: space-around;
 }
 .menu-esquerdo{
-    height: 200px; /* VALOR REFERENTE A DIV MENU QUE ESTA TAXADA 54PX*/
+    height: 200px; 
     width: 150px; 
 
     margin-right: 80px;
@@ -40,7 +41,6 @@ body{
     height: 54px;
 }
 
-/* FLEX CENTER SEPARADO */
 .flex-center{
     display: flex;
     justify-content: center;
@@ -68,7 +68,9 @@ body{
     height: 30px; 
     margin-top: 5px; /* AJUSTE PARA ENQUADRAR NO MEIO DA DIV (POR CONTA DO TAMANHO DA IMAGEM */
 }
-
+.curti{
+    color: red;
+}
 /* INICIANDO O CONTAINER*/
 .container{
     width: 935px;
@@ -77,14 +79,18 @@ body{
     margin-top: 88px;
     display: flex;
 }
+.nome-user {
+    font-family: 'Roboto';
+    font-size: 12px;
+}
 .icone-absolute{
     position: absolute;
     margin-left: 550px;
     z-index: 0;
 }
 .icone-sobreposto{
-    font-size: 26px;
-    color: white;
+    font-size: 32px;
+    color: #FFFAFA;
 }
 .stories-div{
     background-color: white;
@@ -126,6 +132,7 @@ body{
     width: 614px;
     height: auto;
 
+    align-items: center;
     margin-bottom: 60px;
    
 }
@@ -225,11 +232,12 @@ button{
     font-size: 14px;
     font-weight: bold;
     background-color: white;
+    transition: 0.3s linear;
 }
 button:hover{
     cursor: pointer;
     color: #0095F6;
-    transition-delay: 0.3s;
+    transition-delay: 0.3s linear;
 }
 .sidebar{
     width: 293px;
@@ -321,6 +329,13 @@ h4{
 .subtitulo{
     font-family: 'Roboto';
     font-size: 12px;
+    margin-top: 0px;
+    color: #c8c8c8;
+}
+.subtitulo1{
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin-top: -5px;
     color: #c8c8c8;
 }
 .sub-minimalista{
@@ -330,11 +345,21 @@ h4{
 .username{
     font-size: 12px;
     margin-right: 3px;
-    margin-left: 3px;
+    margin-left: 2px;
     margin-bottom: 2px;
 }
 .border-padrao{
     border: 1px solid #DBDBDB;
+}
+.vertudo{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: 0.3s linear;
+}
+.vertudo:hover{
+    cursor: pointer;
+    filter: brightness(1.70);
 }
 .negrito{
     font-weight: bold;
@@ -346,6 +371,11 @@ h4{
     font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
+    transition: 0.3s linear;
+}
+.seguir:hover{
+    filter: brightness(1.80);
+    cursor: pointer;
 }
 
 /* EFEITOS E TRANSICOES */
@@ -354,7 +384,7 @@ h4{
     margin: 10px;
 }
 .espacador-menu{
-    margin-left: 2px;
+    margin-left: 4px;
     margin-right: 2px;
 }
 .espacador-menor{

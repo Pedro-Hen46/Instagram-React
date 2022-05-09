@@ -9,9 +9,9 @@ export default function NavMenu(){
             <div className="menu-esquerdo">
                 <ion-icon
                 name="logo-instagram"
-                className="icones-menu mouse-link"
+                class="icones-menu mouse-link"
                 ></ion-icon>
-                <div className="linha-vertical espacador-perfil"></div>
+                <div class="linha-vertical espacador-perfil"></div>
                 <img
                 src={Logo}
                 alt="Logo do Instagram"
@@ -28,19 +28,19 @@ export default function NavMenu(){
                 <div className="menu-direita flex-center">
                     <ion-icon
                     name="paper-plane-outline"
-                    className="icones-menu espacador-menu mouse-link"
+                    class="icones-menu espacador-menu mouse-link"
                     ></ion-icon>
                     <ion-icon
                     name="compass-outline"
-                    className="icones-menu espacador-menu mouse-link"
+                    class="icones-menu espacador-menu mouse-link"
                     ></ion-icon>
                     <ion-icon
                     name="heart-outline"
-                    className="icones-menu espacador-menu mouse-link"
+                    class="icones-menu espacador-menu mouse-link"
                     ></ion-icon>
                     <ion-icon
                     name="person-outline"
-                    className="icones-menu espacador-menu mouse-link"
+                    class="icones-menu espacador-menu mouse-link"
                     ></ion-icon>
                  </div>
 

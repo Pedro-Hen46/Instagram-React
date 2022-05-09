@@ -18,8 +18,9 @@ export default function Posts(){
         <div className="stories-div border-padrao flex-center">
           <div className="icone-absolute mouse-link">
             <ion-icon
+              class="icone-sobreposto"
               name="chevron-forward-circle"
-              className="icone-sobreposto"
+             
             ></ion-icon>
           </div>
           <div className="people-storie espacador-menu mouse-link">
@@ -92,7 +93,7 @@ export default function Posts(){
               className="postuser-imagens mouse-link"
               alt=""
             />
-            <p className="username espacador-menu mouse-link">MacacoComunista</p>
+            <p class="nome-user espacador-menu mouse-link">MacacoComunista</p>
             <div className="icon-post">
               <ion-icon
                 name="ellipsis-horizontal-outline"
@@ -107,20 +108,20 @@ export default function Posts(){
             Seu navegador não suporta HTML5.
           </video>
 
-          <div className="icones-post">
+          <div class="icones-post">
             <ion-icon
               name="heart-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="chatbubble-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="paper-plane-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
-            <div className="icon-post icones-menu mouse-link">
+            <div class="icon-post icones-menu mouse-link">
               <ion-icon name="bookmark-outline"></ion-icon>
             </div>
           </div>
@@ -160,7 +161,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -184,7 +185,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -211,7 +212,7 @@ export default function Posts(){
               className="postuser-imagens mouse-link"
               alt=""
             />
-            <p className="username espacador-menu mouse-link">Pedro.hen_46</p>
+            <p className="nome-user espacador-menu mouse-link">Pedro.hen_46</p>
             <div className="icon-post">
               <ion-icon
                 name="ellipsis-horizontal-outline"
@@ -223,20 +224,20 @@ export default function Posts(){
 
           <img src={Cervejinha} alt="" className="imagem-postada" />
 
-          <div className="icones-post">
+          <div class="icones-post">
             <ion-icon
               name="heart-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="chatbubble-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="paper-plane-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
-            <div className="icon-post icones-menu mouse-link">
+            <div class="icon-post icones-menu mouse-link">
               <ion-icon name="bookmark-outline"></ion-icon>
             </div>
           </div>
@@ -274,7 +275,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -296,7 +297,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -324,7 +325,7 @@ export default function Posts(){
               className="postuser-imagens mouse-link"
               alt=""
             />
-            <p className="username espacador-menu mouse-link">NãoéOlele</p>
+            <p className="nome-user espacador-menu mouse-link">NãoéOlele</p>
             <div className="icon-post">
               <ion-icon
                 name="ellipsis-horizontal-outline"
@@ -335,20 +336,20 @@ export default function Posts(){
     
 
           <img src={Hornetera} alt="" className="imagem-postada" />
-          <div className="icones-post">
+          <div class="icones-post">
             <ion-icon
               name="heart-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="chatbubble-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="paper-plane-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
-            <div className="icon-post icones-menu mouse-link">
+            <div class="icon-post icones-menu mouse-link">
               <ion-icon name="bookmark-outline"></ion-icon>
             </div>
           </div>
@@ -384,7 +385,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -396,7 +397,7 @@ export default function Posts(){
                   className="postuser-comentarios mouse-link"
                   alt=""
                 />
-                <p className="username negrito mouse-link">NãoSouoCidnei</p>
+                <p className="nome-user negrito mouse-link">NãoSouoCidnei</p>
 
                 <p className="username">Po, muito maneiro a motoca, agora so marcar o racha...</p>
               </div>
@@ -404,7 +405,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -426,7 +427,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -454,7 +455,7 @@ export default function Posts(){
               className="postuser-imagens mouse-link"
               alt=""
             />
-            <p className="username espacador-menu mouse-link">NãoSouoCidnei</p>
+            <p className="nome-user espacador-menu mouse-link">NãoSouoCidnei</p>
             <div className="icon-post">
               <ion-icon
                 name="ellipsis-horizontal-outline"
@@ -465,20 +466,20 @@ export default function Posts(){
     
 
           <img src={Tomarrolandi} alt="" className="imagem-postada" />
-          <div className="icones-post">
+          <div class="icones-post">
             <ion-icon
               name="heart-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="chatbubble-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="paper-plane-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
-            <div className="icon-post icones-menu mouse-link">
+            <div class="icon-post icones-menu mouse-link">
               <ion-icon name="bookmark-outline"></ion-icon>
             </div>
           </div>
@@ -514,7 +515,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -537,7 +538,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -566,7 +567,7 @@ export default function Posts(){
               className="postuser-imagens mouse-link"
               alt=""
             />
-            <p className="username espacador-menu mouse-link">MariaClara.KAT</p>
+            <p className="nome-user espacador-menu mouse-link">MariaClara.KAT</p>
             <div className="icon-post">
               <ion-icon
                 name="ellipsis-horizontal-outline"
@@ -577,20 +578,20 @@ export default function Posts(){
     
 
           <img src={Academia} alt="" className="imagem-postada" />
-          <div className="icones-post">
+          <div class="icones-post">
             <ion-icon
               name="heart-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="chatbubble-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
             <ion-icon
               name="paper-plane-outline"
-              className="icones-menu mouse-link espacador-menor"
+              class="icones-menu mouse-link espacador-menor"
             ></ion-icon>
-            <div className="icon-post icones-menu mouse-link">
+            <div class="icon-post icones-menu mouse-link">
               <ion-icon name="bookmark-outline"></ion-icon>
             </div>
           </div>
@@ -626,7 +627,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
@@ -646,7 +647,7 @@ export default function Posts(){
               <div className="icon-comentario">
                 <ion-icon
                   name="heart-outline"
-                  className="icones-menu mouse-link espacador-menor"
+                  class="icones-menu mouse-link espacador-menor"
                 ></ion-icon>
               </div>
             </div>
